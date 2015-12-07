@@ -20,5 +20,7 @@ iron:router
 twbs:bootstrap
 aldeed:collection2
 aldeed:autoform
+sacha:spin
 accounts-password
 ian:accounts-ui-bootstrap-3
+ongoworks:security

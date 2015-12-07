@@ -1,5 +1,9 @@
 <template name="postPage">
     <h2>{{title}}</h2>
     <p>{{body}}</p>
+    {{#if isauthor}}
+        <a href="#" class="delete">Delete</a>
+        <a href="/edit/{{_id}}" class="edit">Edit</a>
+    {{/if}}
     <p>by {{author}}</p>
 </template>
